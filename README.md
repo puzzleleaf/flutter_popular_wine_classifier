@@ -1,16 +1,30 @@
-# tflite_popular_wine_classifier
+# Flutter Populer Wine Classifier
+Simple Mobile classification model for popular wine 
+    
+    
+## Model Info
+* [TFHub Model (popular_wine_V1)](https://tfhub.dev/google/on_device_vision/classifier/popular_wine_V1/1)
 
-A new Flutter application.
+This model is trained to recognize more than 400,000 popular wine bottles from images.    
+The model is mobile-friendly and can run on-device.
+<p align="center">
+ <img src="readme/main.gif" width='1024'/>
+</p>
 
-## Getting Started
+## Youtube
+[Flutter Populer Wine Classifier - Speed Code](https://youtu.be/SvuDZ5hNMkQ)
+<p align="center">
+ <img src="readme/youtube.png" width='1024'/>
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Packages
+* camera : https://pub.dev/packages/camera/install
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* image : https://pub.dev/packages/image
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* path_provider : https://pub.dev/packages/path_provider
+
+* path : https://pub.dev/packages/path
+
+* tflite_flutter : https://pub.dev/packages/tflite_flutter
