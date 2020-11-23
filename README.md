@@ -1,6 +1,9 @@
 # Flutter Populer Wine Classifier
 Simple Mobile classification model for popular wine 
-    
+
+## TFLite Package Initial setup
+To use the tflite model, follow the guide on the page below.    
+- https://pub.dev/packages/tflite_flutter#important-initial-setup
     
 ## Model Info
 * [TFHub Model (popular_wine_V1)](https://tfhub.dev/google/on_device_vision/classifier/popular_wine_V1/1)
